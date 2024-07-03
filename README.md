@@ -37,7 +37,7 @@ After you successfully import, you should have the table name users_assignment8 
 
 
 Warning: you will get the error message if you already have the table users_assignment8 in your database. Please delete or rename appropriately.!
-In database.php, change the values the following code to connect to your own database in the university server (the method was already described in Class 9 assignment, please refer to the document in Class 9)
+In database.php, change the values the following code to connect to your own database in the university server (the method was already described in Class 10 assignment, please refer to the document in Class 10)
 
 Please note that you are provided with only one database in the university server.
 
