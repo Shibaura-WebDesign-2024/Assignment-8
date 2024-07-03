@@ -56,7 +56,7 @@ Study the code carefully, you can start with index.php and try to imagine the co
 
 You can check the solution website and try to input values from
 
-http://172.21.82.208/gift/class10/sol/
+http://172.21.82.208/gift/class11/sol/
 
 Please test using username: test1, password: 1234
 
