@@ -29,14 +29,14 @@ Figure 1 Login to phpMyAdmin in the university server!
 
 Import the users.sql code to phpMyAdmin in your university server.
 
-After you successfully import, you should have the table name users_assignment10 with the following columns in your own database in the university server.
+After you successfully import, you should have the table name users_assignment8 with the following columns in your own database in the university server.
 
 
 <img width="441" alt="image" src="https://github.com/Shibaura-WebDesign-2024/Assignment-8/assets/80506579/f7039ff0-3043-4022-85c9-664b7030269d">
 
 
 
-Warning: you will get the error message if you already have the table users_assignment10 in your database. Please delete or rename appropriately.!
+Warning: you will get the error message if you already have the table users_assignment8 in your database. Please delete or rename appropriately.!
 In database.php, change the values the following code to connect to your own database in the university server (the method was already described in Class 9 assignment, please refer to the document in Class 9)
 
 Please note that you are provided with only one database in the university server.
@@ -63,7 +63,7 @@ Please test using username: test1, password: 1234
 
 # Modify login.php
 
-Modify login.php as noted in the orange box so that it could successfully verify the username and password from the table users_assignment10 and redirect to welcome.php page
+Modify login.php as noted in the orange box so that it could successfully verify the username and password from the table users_assignment8 and redirect to welcome.php page
 
 ```php
 <?php
@@ -82,7 +82,7 @@ if (isset($_POST['login'])) {
     $username = $_POST['username']; // Assuming username is posted from form
     $password = $_POST['password']; // Assuming password is posted from form
 
-    $query = "SELECT * FROM users_assignment10 WHERE username = :username";
+    $query = "SELECT * FROM users_assignment8 WHERE username = :username";
     $stmt = $conn->prepare($query);
     $stmt->bindParam(':username', $username);
     $stmt->execute();
